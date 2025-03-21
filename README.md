@@ -9,4 +9,4 @@ Test your simple reaction time by screen visual change
 
 # WWW version
 
-<https://petit.qouop.net/simple-reaction-time-tester/>
+<https://petit.haru-lab.net/simple-reaction-time-tester/>
