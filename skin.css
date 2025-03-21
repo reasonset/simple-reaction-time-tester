@@ -1,0 +1,114 @@
+div, section {
+  display: none;
+}
+
+.introduction #IntroductionBlock {
+  display: block;
+  font-size: 120%;
+  width: fit-content;
+  margin: auto;
+}
+
+.jump #Jump {
+  display: block;
+  font-size: 150%;
+  color: red;
+}
+
+body {
+  background-color: #fff;
+
+}
+
+body.test1 {
+  background-color: green;
+}
+
+body.test2 {
+  background-color: red;
+}
+
+body.test3 {
+  background-color: black;
+}
+
+.test4 #Test4 {
+  display: block;
+  width: min(50vw, 50vh);
+  height: min(50vw, 50vh);
+  border-radius: 50%;
+  background-color: blue;
+  position: fixed;
+  top: max(calc(50% - 50vw/2), calc(50% - 50vh/2));
+  left: max(calc(50% - 50vw/2), calc(50% - 50vh/2));
+}
+
+.test5 #Test5 {
+  display: block;
+  width: min(50vw, 50vh);
+  height: min(50vw, 50vh);
+  border-radius: 50%;
+  background-color: #4c869c;
+  position: fixed;
+  top: max(calc(50% - 50vw/2), calc(50% - 50vh/2));
+  left: max(calc(50% - 50vw/2), calc(50% - 50vh/2));
+}
+
+.test6 #Test6 {
+  display: block;
+  width: min(20vw, 20vh);
+  height: min(20vw, 20vh);
+  border-radius: 50%;
+  background-color: #666;
+  position: fixed;
+  top: max(calc(50% - 20vw/2), calc(50% - 20vh/2));
+  left: max(calc(50% - 20vw/2), calc(50% - 20vh/2));
+}
+
+.test7 #Test7 {
+  display: block;
+  width: 100%;
+  height: 20px;
+  position: fixed;
+  top: 50%;
+  background-color: #14d675;
+}
+
+.test8 #Test8 {
+  display: block;
+  width: 100%;
+  height: 20px;
+  position: fixed;
+  top: random(20%, 80%, by 5%);
+  background-color: #999;
+}
+
+.test9 #Test9 {
+  display: block;
+  width: min(20vw, 20vh);
+  height: min(20vw, 20vh);
+  border-radius: 50%;
+  background-color: #e4a55d;
+  position: fixed;
+  top: random(30vh, 70vh);
+  left: random(30vw, 70vw);
+}
+
+.test10 #Test10 {
+  display: block;
+  width: fit-content;
+  margin: auto;
+  color: #333;
+}
+
+.finish #Finish {
+  display: block;
+  width: fit-content;
+  margin: auto;
+}
+
+.bold {
+  font-weight: bold;
+  font-style: italic;
+  color: #43041d;
+}
